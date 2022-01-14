@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014AA0416ADB52A9C0D92879 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = AB524510E0D4882A4A5FE40C /* awsconfiguration.json */; };
+		38E91B73CB262643CF93182C /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = D440115831D602EAE2C6B9E3 /* amplifyconfiguration.json */; };
 		6A276A4C2791448100313493 /* AmplifyTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A276A4B2791448100313493 /* AmplifyTestApp.swift */; };
 		6A276A4E2791448100313493 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A276A4D2791448100313493 /* ContentView.swift */; };
 		6A276A502791448300313493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A276A4F2791448300313493 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 		6A276A4D2791448100313493 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A276A4F2791448300313493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A276A522791448300313493 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB524510E0D4882A4A5FE40C /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; lastKnownFileType = text.json; name = awsconfiguration.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		D440115831D602EAE2C6B9E3 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; lastKnownFileType = text.json; name = amplifyconfiguration.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 			children = (
 				6A276A4A2791448100313493 /* AmplifyTest */,
 				6A276A492791448100313493 /* Products */,
+				D6A022F3A51A7CF6B0EB3772 /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +70,15 @@
 				6A276A522791448300313493 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6A022F3A51A7CF6B0EB3772 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				AB524510E0D4882A4A5FE40C /* awsconfiguration.json */,
+				D440115831D602EAE2C6B9E3 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +141,8 @@
 			files = (
 				6A276A532791448300313493 /* Preview Assets.xcassets in Resources */,
 				6A276A502791448300313493 /* Assets.xcassets in Resources */,
+				014AA0416ADB52A9C0D92879 /* awsconfiguration.json in Resources */,
+				38E91B73CB262643CF93182C /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
